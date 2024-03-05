@@ -70,9 +70,12 @@ end
 
 gem "devise", "~> 4.9"
 
+gem 'rack-cors', '~> 2.0', '>= 2.0.2'
+
 # for wsl server, bin/dev doesn't work on win:
 
 # sudo apt install libpq-dev
 # gem install pg -- --with-pg-config=/path/to/pg_config
 # gem install pg -- --with-pg-include=/path/to/libpq-fe.h/
 # --with-pg-lib=/path/to/libpq.so/
+gem "stripe", "~> 10.11"
