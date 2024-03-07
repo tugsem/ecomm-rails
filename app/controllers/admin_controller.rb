@@ -3,7 +3,7 @@ class AdminController < ApplicationController
   before_action :authenticate_admin!
 
   def index
-    @orders = Order.where(fullfilled: false).order(created_at: :desc).take(5)
+    @orders = Order.where(fulfilled: false).order(created_at: :desc).take(5)
     @quick_stats = {
       sales: Order.where(created_at: Time.now.midnight..Time.now).count,
       revenue: Order.where(created_at: Time.now.midnight..Time.now).sum(:total).round(),

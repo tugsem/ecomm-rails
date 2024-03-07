@@ -43,6 +43,7 @@ class Admin::ProductsController < AdminController
           @admin_product.images.attach(image)
         end
       end
+      render :show, status: :created
     else
       render :edit, status: :unprocessable_entity
     end

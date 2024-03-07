@@ -19,7 +19,7 @@ export default class extends Controller {
       div.innerText = `Item: ${item.name} - Price: $${item.price/100.0} - Size: ${item.size} - Quantity: ${item.quantity}`
       const deleteButton = document.createElement("button")
       deleteButton.innerText = "Remove"
-      deleteButton.value = item.id
+      deleteButton.value = i
       deleteButton.classList.add("bg-gray-500", "rounded", "text-white", "px-2", "py-1", "ml-2")
       deleteButton.addEventListener("click", this.removeFromCart)
       div.appendChild(deleteButton)
@@ -39,8 +39,7 @@ export default class extends Controller {
   removeFromCart(e) {
     const cart = JSON.parse(localStorage.getItem("cart"))
     const id = e.target.value
-    const index = cart.findIndex(item => item.id === id)
-    cart.splice(index, 1)
+    cart.splice(id, 1)
     localStorage.setItem("cart", JSON.stringify(cart))
     window.location.reload()
   }
