@@ -79,3 +79,5 @@ gem 'rack-cors', '~> 2.0', '>= 2.0.2'
 # gem install pg -- --with-pg-include=/path/to/libpq-fe.h/
 # --with-pg-lib=/path/to/libpq.so/
 gem "stripe", "~> 10.11"
+
+gem "pagy", "~> 7.0"
