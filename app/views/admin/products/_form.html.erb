@@ -28,7 +28,7 @@
       <% end %>
     <% end %>
     <%= form.label :images %>
-    <%= form.file_field :images, multiple: true, class: "block mt-2 h-5 w-5" %>
+    <%= form.file_field :images, multiple: true, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
   </div>
 
   <div class="my-5">
@@ -46,9 +46,12 @@
     <%= form.check_box :active, class: "block mt-2 h-5 w-5" %>
   </div>
 
+
+  <% if action_name != "new" %>
   <div class="my-5">
     <%= link_to "Product Stock", admin_product_stocks_path(admin_product), class:"underline" %>
   </div>
+  <% end %>
 
   <div class="inline">
     <%= form.submit class: "rounded-lg py-3 px-5 bg-blue-600 text-white inline-block font-medium cursor-pointer" %>
