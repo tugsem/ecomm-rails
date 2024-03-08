@@ -80,4 +80,4 @@ gem 'rack-cors', '~> 2.0', '>= 2.0.2'
 # --with-pg-lib=/path/to/libpq.so/
 gem "stripe", "~> 10.11"
 
-gem "pagy", "~> 7.0"
+gem "pagy", "~> 7.0" #to paginate tables
