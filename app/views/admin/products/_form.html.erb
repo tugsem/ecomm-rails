@@ -22,11 +22,13 @@
   </div>
 
   <div class="my-5">
-    <% if admin_product.images.any? %>
-      <% admin_product.images.each do |image| %>
-        <%= image_tag image, class:"rounded-md h-50 w-50 object-cover" %>
+    <div class="flex gap-1">
+      <% if admin_product.images.any? %>
+        <% admin_product.images.each do |image| %>
+          <%= image_tag image.variant(:medium), class:"rounded-md object-cover" %>
+        <% end %>
       <% end %>
-    <% end %>
+    </div>
     <%= form.label :images %>
     <%= form.file_field :images, multiple: true, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
   </div>
