@@ -1,7 +1,7 @@
 class CategoriesController < ApplicationController
   def show
     @category = Category.find(params[:id])
-    @products = @category.products
+    @products = @category.products.where(active: true)
     if params[:max].present?
       @products = @products.where("price <= ?", params[:max])
     end
