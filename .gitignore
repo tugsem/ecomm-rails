@@ -33,3 +33,4 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+/congif/concise-crane-416815-d9c550c1ba36.json

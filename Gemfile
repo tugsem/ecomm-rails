@@ -81,3 +81,6 @@ gem 'rack-cors', '~> 2.0', '>= 2.0.2'
 gem "stripe", "~> 10.11"
 
 gem "pagy", "~> 7.0" #to paginate tables
+
+gem 'google-cloud-storage', '~> 1.49'
+gem 'dotenv-rails', '~> 3.1'
