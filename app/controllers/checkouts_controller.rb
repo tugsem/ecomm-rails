@@ -26,7 +26,7 @@ class CheckoutsController < ApplicationController
               product_stock_id: product_stock.id
             }},
             currency: "usd",
-            unit_amount: item["price"].to_i,
+            unit_amount: item["price"].to_i*100,
         }
       }
     end
