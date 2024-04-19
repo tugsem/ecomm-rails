@@ -1,6 +1,6 @@
 # Ecomm Rails
 
-> A full stack RoR website with authorization, admin panel, cart page with checkout. A price filter for a category.
+> A full stack RoR website with admin panel(dashboard with daily stats, revenue chart, recent orders, and product, category and orders pages), cart page with stripe checkout. A price filter for a category.
 
 
 ## Built With
