@@ -2,6 +2,7 @@
 
 > A full stack RoR website with admin panel(dashboard with daily stats, revenue chart, recent orders, and product, category and orders pages), cart page with stripe checkout. A price filter for a category.
 
+![Screenshot 2024-03-11 155503](https://github.com/tugsem/ecomm-rails/assets/91486791/d56d93e3-4f22-4a88-b211-8c3c7e4bbad7)
 
 ## Built With
 
