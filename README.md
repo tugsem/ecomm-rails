@@ -51,6 +51,12 @@ Clone the repository locally using one of the three options available:
 
 Deployed with Render.
 
+
+## Future Features
+
+- Add notificator for item added to the cart.
+- Add counter to the cart icon to show the number of items in the cart.
+
 ## Authors
 
 👤 **Tuğsem Saranlı**
