@@ -5,7 +5,6 @@
 
 ## Built With
 
-- Ruby
 - Ruby on Rails
 - Stripe for checkout
 - Tailwind for styling
