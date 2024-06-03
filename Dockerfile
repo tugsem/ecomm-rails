@@ -38,7 +38,7 @@ RUN bundle install && \
 
 # Install node modules
 COPY package.json ./
-RUN npm ci
+RUN npm i
 
 # Copy application code
 COPY . .
