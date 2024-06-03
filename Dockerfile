@@ -37,7 +37,7 @@ RUN bundle install && \
     bundle exec bootsnap precompile --gemfile
 
 # Install node modules
-COPY package.json package-lock.json ./
+COPY package.json ./
 RUN npm ci
 
 # Copy application code
