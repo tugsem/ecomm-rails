@@ -6,7 +6,8 @@ module.exports = {
     './app/helpers/**/*.rb',
     './app/javascript/**/*.js',
     './app/views/**/*.{erb,haml,html,slim}',
-    './app/assets/stylesheets/**/*.css'
+    './app/assets/stylesheets/**/*.css',
+    './app/assets/controllers/**/*.js',
   ],
   theme: {
     extend: {
