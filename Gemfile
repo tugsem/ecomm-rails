@@ -25,7 +25,7 @@ gem "stimulus-rails"
 
 gem "tailwindcss-rails"
 
-gem "font-awesome-sass", "~> 6.5"
+gem 'font-awesome-sass', '~> 6.5', '>= 6.5.2'
 
 # Bundle and éprocess CSS [https://github.com/rails/cssbundling-rails]
 gem "cssbundling-rails"
