@@ -11,6 +11,8 @@
 - Tailwind for styling
 - PostgreSQL for database
 
+## Live Link
+[Live](https://ecomm-rails-production.up.railway.app/)
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
