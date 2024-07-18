@@ -27,6 +27,8 @@ gem "tailwindcss-rails"
 
 gem 'font-awesome-sass', '~> 6.5', '>= 6.5.2'
 
+gem 'jsbundling-rails', '~> 1.3'
+
 # Bundle and éprocess CSS [https://github.com/rails/cssbundling-rails]
 gem "cssbundling-rails"
 

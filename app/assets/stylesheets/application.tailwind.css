@@ -1,11 +1,7 @@
-@import "tailwindcss/base";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-/* import fontaweseome css */
-@import "@fortawesome/fontawesome-free/css/all";
-
-@import "tailwindcss/components";
-
-@import "tailwindcss/utilities";
 /*
 
 @layer components {
