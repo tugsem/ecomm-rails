@@ -1,0 +1,17 @@
+{
+  "name": "ecomm-rails",
+  "version": "1.0.0",
+  "description": "> A full stack RoR website with admin panel(dashboard with daily stats, revenue chart, recent orders, and product, category and orders pages), cart page with stripe checkout. A price filter for a category.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild app/javascript/* --bundle --outdir=app/assets/builds"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
