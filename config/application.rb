@@ -38,7 +38,7 @@ module Ecommyou2betutorial
 
     # Don't generate system test files.
     config.generators.system_tests =
-    config.assets.enabled = false
+    config.assets.enabled = true
     config.assets.precompile = []
     config.autoload_paths += %W(#{config.root}/lib)
   end
